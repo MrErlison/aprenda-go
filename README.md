@@ -6,6 +6,8 @@
 
 - [Repositório Git](https://github.com/vkorbes/aprendago)
 
+- [Go by example](https://gobyexample.com/)
+
 ## Conteúdo
 - 01 - Visão Geral do Curso
 - 02 - Variáveis, Valores & tipos
