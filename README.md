@@ -1,10 +1,10 @@
 # AprendaGo
 
-- [Curso](https://www.youtube.com/c/AprendaGo)
+- [Course](https://www.youtube.com/c/AprendaGo)
 
 - [The Go Playground](https://go.dev/play/)
 
-- [Repositório Git](https://github.com/vkorbes/aprendago)
+- [Original git repo](https://github.com/vkorbes/aprendago)
 
 - [Go by example](https://gobyexample.com/)
 
