@@ -11,7 +11,7 @@
 - [Go por exemplo pt-BR]  (https://gobyexample-ptbr.github.io)
 
 ## Conteúdo
-- 01 - [Visão Geral do Curso](/Capítulos/Visão Geral/readme.md)
+- 01 - [Visão Geral do Curso](/Unidades/01-visao-geral/readme.md)
 - 02 - Variáveis, Valores & tipos
 - 03 - Exercícios: Ninja Nível 1
 - 04 - Fundamentos da Programação
