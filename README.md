@@ -1,42 +1,42 @@
 # AprendaGo
 
-- [Curso](https://www.youtube.com/c/AprendaGo)
+- [Curso Aprenda Go](https://www.youtube.com/c/AprendaGo)
 
 - [Repositório original do curso](https://github.com/vkorbes/aprendago)
 
-- Ferramenta [The Go Playground](https://go.dev/play/)
+- [Ferramenta The Go Playground](https://go.dev/play/)
 
 - [Go by example](https://gobyexample.com/)
 
-- [Go por exemplo pt-BR]  (https://gobyexample-ptbr.github.io)
+- [Go por exemplo pt-BR](https://gobyexample-ptbr.github.io)
 
 ## Conteúdo
 - 01 - [Visão Geral do Curso](/Unidades/01-visao-geral/readme.md)
-- 02 - Variáveis, Valores & tipos
-- 03 - Exercícios: Ninja Nível 1
-- 04 - Fundamentos da Programação
-- 05 - Exercícios: Ninja Nível 2
-- 06 - Fluxo de Controle
-- 07 - Exercícios: Ninja Nível 3
-- 08 - Agrupamentos de Dados
-- 09 - Exercícios: Ninja Nível 4
-- 10 - Structs
-- 11 - Exercícios: Ninja Nível 5
-- 12 - Funções
-- 13 - Exercícios: Ninja Nível 6
-- 14 - Ponteiros
-- 15 - Exercícios: Ninja Nível 7
-- 16 - Aplicação
-- 17 - Exercícios: Ninja Nível 8
-- 18 - Concorrência
-- 19 - Seu Ambiente de Desenvolvimento
-- 20 - Exercícios: Ninja Nível 9
-- 21 - Canais
-- 22 - Exercícios: Ninja Nível 10
-- 23 - Tratamento de Erros
-- 24 - Exercícios: Ninja Nível 11
-- 25 - Escrevendo Documentação
-- 26 - Exercícios: Ninja Nível 12
-- 27 - Testes & Benchmarking
-- 28 - Exercícios: Ninja Nível 13
-- 29 - Considerações Finais
+- 02 - [Variáveis, Valores & tipos](/Unidades/02-variaveis-valores-tipos/readme.md)
+- 03 - [Exercícios: Ninja Nível 1](/Unidades/03-exercicios/readme.md)
+- 04 - [Fundamentos da Programação](/Unidades/04-fundamentos-da-programacao/readme.md)
+- 05 - [Exercícios: Ninja Nível 2](/Unidades/05-exercicios/readme.md)
+- 06 - [Fluxo de Controle](/Unidades/06-fluxo-de-controle/readme.md)
+- 07 - [Exercícios: Ninja Nível 3](/Unidades/07-exercicios/readme.md)
+- 08 - [Agrupamentos de Dados](/Unidades/08-agrupamentos-de-dados/readme.md)
+- 09 - [Exercícios: Ninja Nível 4](/Unidades/09-exercicios/readme.md)
+- 10 - [Structs](/Unidades/10-structs/readme.md)
+- 11 - [Exercícios: Ninja Nível 5](/Unidades/11-exercicios/readme.md)
+- 12 - [Funções](/Unidades/12-funcoes/readme.md)
+- 13 - [Exercícios: Ninja Nível 6](/Unidades/13-exercicios/readme.md)
+- 14 - [Ponteiros](/Unidades/14-ponteiros/readme.md)
+- 15 - [Exercícios: Ninja Nível 7](/Unidades/15-exercicios/readme.md)
+- 16 - [Aplicação](/Unidades/16-aplicacao/readme.md)
+- 17 - [Exercícios: Ninja Nível 8](/Unidades/17-exercicios/readme.md)
+- 18 - [Concorrência](/Unidades/18-concorrencia/readme.md)
+- 19 - [Seu Ambiente de Desenvolvimento](/Unidades/19-seu-ambiente-de-desenvolvimento/readme.md)
+- 20 - [Exercícios: Ninja Nível 9](/Unidades/20-exercicios/readme.md)
+- 21 - [Canais](/Unidades/21-canais/readme.md)
+- 22 - [Exercícios: Ninja Nível 10](/Unidades/22-exercicios/readme.md)
+- 23 - [Tratamento de Erros](/Unidades/23-tratamento-de-erros/readme.md)
+- 24 - [Exercícios: Ninja Nível 11](/Unidades/24-exercicios/readme.md)
+- 25 - [Escrevendo Documentação](/Unidades/25-escrevendo-documentacao/readme.md)
+- 26 - [Exercícios: Ninja Nível 12](/Unidades/26-exercicios/readme.md)
+- 27 - [Testes & Benchmarking](/Unidades/27-testes-benchmarking/readme.md)
+- 28 - [Exercícios: Ninja Nível 13](/Unidades/28-exercicios/readme.md)
+- 29 - [Considerações Finais](/Unidades/29-consideracoes-finais/readme.md)

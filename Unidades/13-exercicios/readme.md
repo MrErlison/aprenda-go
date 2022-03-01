@@ -1,0 +1,115 @@
+## 13 – Exercícios: Ninja Nível 6
+
+### Na prática: exercício #1
+
+- Exercício:
+    - Crie uma função que retorne um int
+    - Crie outra função que retorne um int e uma string
+    - Chame as duas funções
+    - Demonstre seus resultados
+- Solução: https://play.golang.org/p/rxJM5fgI-9
+
+- Revisão:
+    - Funções!
+        - Servem para abstrair código
+        - E para reutilizar código
+    - A ordem das coisas é:
+        - func (receiver) identifier (parameters) (returns) { code }
+    - Parâmetros vs. argumentos
+    - Funções variádicas
+        - Múltiplos parâmetros
+        - Múltiplos argumentos
+    - Métodos
+    - Interfaces & polimorfismo
+    - Defer
+        - "Deixa pra depois!"
+    - Returns
+        - Múltiplos returns
+        - Returns com nome (blé!)
+    - Funcs como expressões
+        - Atribuindo uma função a uma variável
+    - Callbacks
+        - Passando uma função como argumento para outra função
+    - Closure
+        - Capturando um scope
+        - Variáveis declaradas em scopes externos são visíveis em scopes internos
+    - Recursividade
+        - Uma função que chama a ela mesma
+        - Fatoriais
+
+### Na prática: exercício #2
+
+- Crie uma função que receba um parâmetro variádico do tipo int e retorne a soma de todos os ints recebidos;
+- Passe um valor do tipo slice of int como argumento para a função;
+- Crie outra função, esta deve receber um valor do tipo slice of int e retornar a soma de todos os elementos da slice;
+- Passe um valor do tipo slice of int como argumento para a função.
+- Solução: https://play.golang.org/p/Tgv3wwxKV-
+
+### Na prática: exercício #3
+
+- Utilize a declaração defer de maneira que demonstre que sua execução só ocorre ao final do contexto ao qual ela pertence.
+- Solução: https://play.golang.org/p/b5Ua2kNN8a
+
+### Na prática: exercício #4
+
+- Crie um tipo struct "pessoa" que contenha os campos:
+    - nome
+    - sobrenome
+    - idade
+- Crie um método para "pessoa" que demonstre o nome completo e a idade;
+- Crie um valor de tipo "pessoa";
+- Utilize o método criado para demonstrar esse valor.
+- Solução: https://play.golang.org/p/GBZcnu0Ajp
+
+### Na prática: exercício #5
+
+- Crie um tipo "quadrado"
+- Crie um tipo "círculo"
+- Crie um método "área" para cada tipo que calcule e retorne a área da figura
+    - Área do círculo: 2 * π * raio
+    - Área do quadrado: lado * lado
+- Crie um tipo "figura" que defina como interface qualquer tipo que tiver o método "área"
+- Crie uma função "info" que receba um tipo "figura" e retorne a área da figura
+- Crie um valor de tipo "quadrado"
+- Crie um valor de tipo "círculo"
+- Use a função "info" para demonstrar a área do "quadrado"
+- Use a função "info" para demonstrar a área do "círculo"
+- Solução: https://play.golang.org/p/qLY-q3vffQ
+
+### Na prática: exercício #6
+
+- Crie e utilize uma função anônima.
+- Solução: https://play.golang.org/p/Kgo6hVr5G5
+
+### Na prática: exercício #7
+
+- Atribua uma função a uma variável.
+- Chame essa função.
+- Solução: https://play.golang.org/p/RMHLL3N5Ww
+
+### Na prática: exercício #8
+
+- Crie uma função que retorna uma função.
+- Atribua a função retornada a uma variável.
+- Chame a função retornada.
+- Solução: https://play.golang.org/p/A74rufv6Rs
+
+### Na prática: exercício #9
+
+- Callback: passe uma função como argumento a outra função.
+- Solução: https://play.golang.org/p/2epLD_Yyap
+
+### Na prática: exercício #10
+
+- Demonstre o funcionamento de um closure.
+- Ou seja: crie uma função que retorna outra função, onde esta outra função faz uso de uma variável alem de seu scope.
+- Solução: https://play.golang.org/p/sA7NHpkCCg
+
+### Na prática: exercício #11
+
+- Uma das melhores maneiras de aprender é ensinando.
+- Para este exercício escolha o seu código favorito dentre os que vimos estudando funções. Pode ser das aulas ou da seção de exercícios. Então:
+    - Faça download e instale isso aqui: https://obsproject.com/ 
+    - Grave um vídeo onde *você* ensina o tópico em questão
+    - Faça upload do vídeo no YouTube
+    - Compartilhe o vídeo no Twitter e me marque no tweet (@ellenkorbes)

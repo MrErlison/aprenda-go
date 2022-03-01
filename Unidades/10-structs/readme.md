@@ -1,0 +1,40 @@
+## 10 – Structs
+
+### Struct
+
+- Struct é um tipo de dados composto que nos permite armazenar valores de tipos *diferentes.*
+- Seu nome vem de "structure," ou estrutura.
+- Declaração: type x struct { y: z }
+- Acesso: x.y
+- Exemplo: nome, idade, fumante.
+- Go Playground: https://play.golang.org/p/5i0DqxuBp1
+
+### Structs embutidos
+
+- Structs dentro de structs dentro de structs.
+- Exemplo: um corredor de fórmula 1 é uma pessoa (nome, sobrenome, idade) *e tambem* um competidor (nome, equipe, pontos).
+- Go Playground: 
+
+### Lendo a documentação
+
+- É importante se familiarizar com a documentação da linguagem Go.
+- Neste vídeo vamos ver um pouco sobre o que a documentação diz sobre structs.
+- Veremos:
+    - ref/spec
+        - Já vimos mais da metade dos tipos em Go!
+        - Struct types.
+            - x, y int
+            - anonymous fields
+            - promoted fields
+- Go Playground: https://play.golang.org/p/z9UQej4IQT
+
+### Structs anônimos
+
+- São structs sem identificadores.
+- x := struct { name type }{ name: value }
+- Go Playground: https://play.golang.org/p/xyhNnSCu1f
+
+### Colocando ordem na casa
+
+- [???]
+- Go Playground: 
