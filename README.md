@@ -1,15 +1,17 @@
 # AprendaGo
 
-- [Course](https://www.youtube.com/c/AprendaGo)
+- [Curso](https://www.youtube.com/c/AprendaGo)
 
-- [The Go Playground](https://go.dev/play/)
+- [Repositório original do curso](https://github.com/vkorbes/aprendago)
 
-- [Original git repo](https://github.com/vkorbes/aprendago)
+- Ferramenta [The Go Playground](https://go.dev/play/)
 
 - [Go by example](https://gobyexample.com/)
 
+- [Go por exemplo pt-BR]  (https://gobyexample-ptbr.github.io)
+
 ## Conteúdo
-- 01 - Visão Geral do Curso
+- 01 - [Visão Geral do Curso](/Capítulos/Visão Geral/readme.md)
 - 02 - Variáveis, Valores & tipos
 - 03 - Exercícios: Ninja Nível 1
 - 04 - Fundamentos da Programação
