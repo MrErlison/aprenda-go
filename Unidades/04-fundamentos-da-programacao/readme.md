@@ -10,14 +10,14 @@
     - Zero value
     - Atribuindo um valor
     - Bool como resultado de operadores relacionais
-- Go Playground: https://play.golang.org/p/7joj615nZw
+- [Go Playground](https://play.golang.org/p/7joj615nZw)
 
 ### Como os computadores funcionam
 
 - Isso é importante pois daqui pra frente vamos falar de ints, bytes, e etc.
 - Não é necessário um conhecimento a fundo mas é importante ter uma idéia de como as coisas funcionam por trás dos panos.
-- https://docs.google.com/presentation/d/1aVytiGOBVDMISFW-ZARJ5iFY1osU2XJIw0hQpNICXm8/
-- ASCII: https://en.wikipedia.org/wiki/ASCII
+- [https://docs.google.com/presentation/d/1aVytiGOBVDMISFW-ZARJ5iFY1osU2XJIw0hQpNICXm8/](https://docs.google.com/presentation/d/1aVytiGOBVDMISFW-ZARJ5iFY1osU2XJIw0hQpNICXm8/)
+- ASCII: [https://en.wikipedia.org/wiki/ASCII](https://en.wikipedia.org/wiki/ASCII)
 - Filme: Alan Turing, The Immitation Game.
 
 ### Tipos numéricos
@@ -44,18 +44,18 @@
     - Tipagem com var
     - Dá pra colocar número com vírgula em tipo int?
     - Overflow
-    - Go Playground: https://play.golang.org/p/dt2x1ies5b
+    - [Go Playground](https://play.golang.org/p/dt2x1ies5b)
 - “implementation-specific sizes”? Runtime package. Word.
     - GOOS
     - GORUNTIME
-    - https://play.golang.org/p/1vp5DImIMM
+    - [https://play.golang.org/p/](https://play.golang.org/p/1vp5DImIMM)
 
 ### Overflow
 
 - Um uint16, por exemplo, vai de 0 a 65535.
 - Que acontece se a gente tentar usar 65536?
 - Ou se a gente estiver em 65535 e tentar adicionar mais 1?
-- Playground: https://play.golang.org/p/t7Z4m127F2t
+- [Playground](https://play.golang.org/p/t7Z4m127F2t)
 
 ### Tipo string (cadeias de caracteres)
 
@@ -67,15 +67,15 @@
     - Raw string literals
     - Conversão para slice of bytes: []byte(x)
     - %#U, %#x
-    - Go Playground: https://play.golang.org/p/dt2x1ies5b & https://play.golang.org/p/PpDnspiyA_7
-- https://blog.golang.org/strings
+    - [Go Playground](https://play.golang.org/p/dt2x1ies5b)
+- [https://blog.golang.org/strings](https://blog.golang.org/strings)
 
 ### Sistemas numéricos
 
 - Base-10: decimal, 0–9
 - Base-2: binário, 0–1
 - Base-16: hexadecimal, 0–f
-- https://docs.google.com/document/d/1GqXpubhMMIr4Sy5xwgiPIDh5PGVmVpF2u0c9vDrvykE/
+- [https://docs.google.com/document/d/](https://docs.google.com/document/d/1GqXpubhMMIr4Sy5xwgiPIDh5PGVmVpF2u0c9vDrvykE/)
 - Demonstração em Go.
 
 ### Constantes
@@ -97,7 +97,7 @@
 - Numa declaração de constantes, o identificador iota representa números sequenciais.
 - Na prática.
     - iota, iota + 1, a = iota b c, reinicia em cada const, _
-- Go Playground: https://play.golang.org/p/eSrwoQjuYR
+- [Go Playground](https://play.golang.org/p/eSrwoQjuYR)
 
 ### Deslocamento de bits
 
@@ -107,8 +107,8 @@
     - x << y
     - iota * 10 << 10 = kb, mb, gb
     
-- https://play.golang.org/p/7MOnbhx4R4
-- https://splice.com/blog/iota-elegant-constants-golang/
-- https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827
+- [https://play.golang.org/p/7MOnbhx4R4](https://play.golang.org/p/7MOnbhx4R4)
+- [https://splice.com/blog/iota-elegant-constants-golang/](https://splice.com/blog/iota-elegant-constants-golang/)
+- [https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 
 - Fim da sessão. Massa!

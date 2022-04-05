@@ -18,7 +18,7 @@
 - O que estava acontecendo no Google...
 - Criada por Ken Thompson (Unix, B, C), Rob Pike (UTF-8), e Robert Griesemer.
 - Em 2006, não tinha uma linguagem de compilação rápida, execução rápida, e fácil de programar. É uma linguagem criada para resolver as questões de performance e complexidade.
-- https://golang.org/doc/faq#creating_a_new_language
+- [https://golang.org/doc/faq#creating_a_new_language](https://golang.org/doc/faq#creating_a_new_language)
 - Eficiente
     - Standard library é déis
     - Multiplataforma.
@@ -35,10 +35,10 @@
     - Seviços web, redes, servers (machine learning, image processing, crypto, ...)
     - Quando precisar de uma lingaugem rápida, simples, fácil de aprender, e fácil de usar.
 - Usa em: APIs, CLIs, microservices, libraries/framework, processamento de dados, ... É a base dos serviços de cloud e orquestração de containers.
-- Quem usa? https://github.com/golang/go/wiki/GoUsers
-- Go é OOP? https://golang.org/doc/faq#Is_Go_an_object-oriented_language
-- Mais um: https://golang.org/doc/faq#principles
-- $$$: https://insights.stackoverflow.com/survey/2017#technology-top-paying-technologies-by-region -> US
+- [Quem usa?](https://github.com/golang/go/wiki/GoUsers) 
+- [Go é OOP?](https://golang.org/doc/faq#Is_Go_an_object-oriented_language) 
+- [Mais um](https://golang.org/doc/faq#principles) 
+- [$$$ US](https://insights.stackoverflow.com/survey/2017#technology-top-paying-technologies-by-region)
 
 
 ### Sucesso
@@ -47,7 +47,7 @@
 - Eu quero que você obtenha sucesso com este curso, então vamos falar sobre o assunto.
 - Perguntaram a Bill Gates e Warren Buffet, independentemente, qual seria sua principal característica responsável pelo seu sucesso. A resposta de ambos foi:
 - Foco. 
-- (Fonte: https://www.linkedin.com/pulse/20140707144749-8353952-the-one-word-answer-to-why-bill-gates-and-warren-buffett-have-been-so-successful/)
+- [Fonte](https://www.linkedin.com/pulse/20140707144749-8353952-the-one-word-answer-to-why-bill-gates-and-warren-buffett-have-been-so-successful/)
 - O que isso quer dizer?
 - Escolha um objetivo e se concentre nele. Faça desse objetivo sua maior prioridade.
 - Foco. Concentração. → "Vou conseguir chegar lá ou vou morrer tentando."
@@ -68,26 +68,26 @@
 ### Recursos
 
 - Leia as descrições dos vídeos!
-    - Outline completo: https://github.com/ellenkorbes/aprendago/blob/master/OUTLINE.md
+    - [Outline completo](https://github.com/ellenkorbes/aprendago/blob/master/OUTLINE.md)
 - Exercícios:
 - Comunidade: 
-    - Slack: https://invite.slack.golangbridge.org/
-    - #brazil
-    - #brazilian-go-studies, toda quinta às 22h!
-        - gravações em: https://www.youtube.com/cesargimenes
-        - exercícios em: https://github.com/crgimenes/Go-Hands-On
-        - FB: https://www.facebook.com/gophers.br/
+    - [Slack](https://invite.slack.golangbridge.org/)
+	    - \#brazil
+    - \#brazilian-go-studies, toda quinta às 22h!
+        - [Gravações](https://www.youtube.com/cesargimenes)
+        - [Exercícios](https://github.com/crgimenes/Go-Hands-On)
+        - [Facebook](https://www.facebook.com/gophers.br/)
 - Livros:
-    - A Linguagem de Programação Go (Alan Donovan, Brian Kernighan): https://www.amazon.com.br/dp/8575225464/
-    - Go em Ação (William Kennedy, Brian Ketelsen, Erik St. Martin): https://www.amazon.com.br/dp/8575225065/
-    - Introdução à Linguagem Go (Caleb Doxsey): https://www.amazon.com.br/dp/8575224891/
-- Em inglês: gobyexample.com, forum.golangbridge.org, stackoverflow.com/questions/tagged/go
+    - [A Linguagem de Programação Go (Alan Donovan, Brian Kernighan)](https://www.amazon.com.br/dp/8575225464/)
+    - [Go em Ação (William Kennedy, Brian Ketelsen, Erik St. Martin)](https://www.amazon.com.br/dp/8575225065/)
+    - [Introdução à Linguagem Go (Caleb Doxsey)](https://www.amazon.com.br/dp/8575224891/)
+- [Em inglês](gobyexample.com), [forum](forum.golangbridge.org), [Stackoverflow](stackoverflow.com/questions/tagged/go)
 - Documentação oficial:
-    - golang.org
-    - godoc.org
-    - golang.org/doc/effective_go.html
-- Podcast Go Time: https://changelog.com/gotime
-- Defective Go: https://www.youtube.com/channel/UC98qIvCCqd4fjOw1ks78SwA
+    - [golang.org](golang.org)
+    - [godoc.org](godoc.org)
+    - [golang.org/doc/effective_go.html](golang.org/doc/effective_go.html)
+- [Podcast Go Time](https://changelog.com/gotime)
+- [Defective Go](https://www.youtube.com/channel/UC98qIvCCqd4fjOw1ks78SwA)
 
 ### Como esse curso funciona
 

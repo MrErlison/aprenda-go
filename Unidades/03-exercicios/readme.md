@@ -24,7 +24,7 @@
 - Agora demonstre os valores nestas variáveis, com:
     1. Uma única declaração print
     2. Múltiplas declarações print
-- Solução: https://play.golang.org/p/yYXnWXIQNa
+- [Solução](https://play.golang.org/p/yYXnWXIQNa)
 
 ### Na prática: exercício #2
 
@@ -35,7 +35,7 @@
 - Na função main:
     1. Demonstre os valores de cada identificador
     2. O compilador atribuiu valores para essas variáveis. Como esses valores se chamam?
-- Solução: https://play.golang.org/p/pAFd-F7uGZ
+- [Solução](https://play.golang.org/p/pAFd-F7uGZ)
 
 ### Na prática: exercício #3
 
@@ -47,7 +47,7 @@
     2. Na função main:
         1. Use fmt.Sprintf para atribuir todos esses valores a uma única variável. Faça essa atribuição de tipo string a uma variável de nome "s" utilizando o operador curto de declaração.
         2. Demonstre a variável "s".
-- Solução: https://play.golang.org/p/QFctSQB_h3
+- [Solução](https://play.golang.org/p/QFctSQB_h3)
 
 ### Na prática: exercício #4
 
@@ -58,9 +58,9 @@
     2. Demonstre o tipo da variável "x"
     3. Atribua 42 à variável "x" utilizando o operador "="
     4. Demonstre o valor da variável "x"
-- Para os aventureiros: https://golang.org/ref/spec#Types
+- [Para os aventureiros](https://golang.org/ref/spec#Types)
 - Agora já somos quase ninjas nível 1!
-- Solução: https://play.golang.org/p/snm4WuuYmG
+- [Solução](https://play.golang.org/p/snm4WuuYmG)
 
 ### Na prática: exercício #5
 
@@ -76,10 +76,10 @@
             1. Utilize conversão para transformar o tipo do valor da variável "x" em seu tipo subjacente e, utilizando o operador "=", atribua o valor de "x" a "y"
             2. Demonstre o valor de "y"
             3. Demonstre o tipo de "y"
-- Solução: https://play.golang.org/p/uq81T_fasP
+- [Solução](https://play.golang.org/p/uq81T_fasP)
 
 ### Na prática: exercício #6
 
 - Prova!
-- Link: https://goo.gl/forms/s9y91iVSPvA4iahj1
+- [Link](https://goo.gl/forms/s9y91iVSPvA4iahj1)
 - Se você deu pausa e fez todos os exercícios anteriores você mesmo, e só viu a resposta depois... e se você der pausa agora e fizer a prova inteira por conta própria, e só assistir as respostas depois... sabe o que isso quer dizer? Que você é ninja. Ninja nível 1. Tá no caminho certo pra ser um developer ninja mestre.

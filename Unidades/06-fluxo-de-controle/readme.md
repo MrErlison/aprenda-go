@@ -65,7 +65,7 @@
 - Operação módulo: %
 - For: break
 - For: continue
-- Go Playground: https://play.golang.org/p/gpKMP1wAEM & https://play.golang.org/p/8erMGEbZQix
+- Go Playground: [https://play.golang.org/p/](https://play.golang.org/p/gpKMP1wAEM) & [https://play.golang.org/p/](https://play.golang.org/p/8erMGEbZQix)
 
 ### Loops: utilizando ascii
 
@@ -77,21 +77,21 @@
     - Tab           \t
     - Linha nova    \n
 - Faça um loop dos números 33 a 122, e utilize format printing para demonstrá-los como texto/string.
-- Solução: https://play.golang.org/p/REm2WHyzzz
+- [Solução](https://play.golang.org/p/REm2WHyzzz)
 
 ### Condicionais: a declaração if
 
 - If: bool
 - If: o operador não → "!"
 - If: declaração de inicialização
-- Go Playground: https://play.golang.org/p/6nq2Tjb07i
+- [Go Playground](https://play.golang.org/p/6nq2Tjb07i)
 
 ### Condicionais: if, else if, else
 
 - If, else.
 - If, else if, else.
 - If, else if, else if, ..., else.
-- Go Playground: https://play.golang.org/p/18VrRX2pec
+- [Go Playground](https://play.golang.org/p/18VrRX2pec)
 
 ### Condicionais: a declaração switch
 
@@ -114,7 +114,7 @@
 - &&
 - ||
 - !
-- Go Playground: https://play.golang.org/p/MFwrt93xlc
+- [Go Playground](https://play.golang.org/p/MFwrt93xlc)
 - Qual o resultado de fmt.Println...
     - true && true
     - true && false
