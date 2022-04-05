@@ -1,14 +1,12 @@
 # AprendaGo
 
-- [Curso Aprenda Go](https://www.youtube.com/c/AprendaGo)
+- Link para acesso ao curso no Youtube [Aprenda Go](https://www.youtube.com/c/AprendaGo)
 
-- [Repositório original do curso](https://github.com/vkorbes/aprendago)
+- O [repositório original](https://github.com/vkorbes/aprendago) do curso 
 
-- [Ferramenta The Go Playground](https://go.dev/play/)
+- Ferramenta on-line [The Go Playground](https://go.dev/play/)
 
-- [Go by example](https://gobyexample.com/)
-
-- [Go por exemplo pt-BR](https://gobyexample-ptbr.github.io)
+- [Go por exemplo pt-BR](https://gobyexample-ptbr.github.io) (em desensolvimento)
 
 ## Conteúdo
 - 01 - [Visão Geral do Curso](/Unidades/01-visao-geral/readme.md)
