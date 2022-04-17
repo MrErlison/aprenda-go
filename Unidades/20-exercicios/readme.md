@@ -5,9 +5,8 @@
 - Alem da goroutine principal, crie duas outras goroutines.
 - Cada goroutine adicional devem fazer um print separado.
 - Utilize waitgroups para fazer com que suas goroutines finalizem antes de o programa terminar.
-- Solução:
-    - https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/01_foda/main_foda.go
-    - https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/01_moleza/main_moleza.go
+- [Solução 01](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/01_foda/main_foda.go)
+- [Solução 02](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/01_moleza/main_moleza.go)
 
 ### Na prática: exercício #2
 
@@ -19,8 +18,8 @@
     - Demonstre no seu código:
         - Que você pode utilizar um valor do tipo "*pessoa" na função "dizerAlgumaCoisa"
         - Que você não pode utilizar um valor do tipo "pessoa" na função "dizerAlgumaCoisa"
-- Se precisar de dicas, veja: https://gobyexample.com/interfaces
-- Solução: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/02/main.go
+- Se precisar de dicas, [acesse aqui](https://gobyexample.com/interfaces)
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/02/main.go)
 
 ### Na prática: exercício #3
 
@@ -34,17 +33,17 @@
         - Copiar o novo valor para a variável inicial
     - Utilize WaitGroups para que seu programa não finalize antes de suas goroutines.
     - Demonstre que há uma condição de corrida utilizando a flag -race
-- Solução: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/03/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/03/main.go)
 
 ### Na prática: exercício #4
 
 - Utilize mutex para consertar a condição de corrida do exercício anterior.
-- Solução: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/04/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/04/main.go)
 
 ### Na prática: exercício #5
 
 - Utilize atomic para consertar a condição de corrida do exercício #3.
-- Solução: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/05/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/05/main.go)
 
 ### Na prática: exercício #6
 
@@ -53,12 +52,12 @@
     - go run
     - go build
     - go install
-- Solução: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/06/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/20_exercicios-ninja-9/06/main.go)
 
 ### Na prática: exercício #7
 
 - "If you do not leave your comfort zone, you do not remember the trip" — Brian Chesky
-- Faça download e instale: https://obsproject.com/
+- Faça download e instale: [https://obsproject.com/](https://obsproject.com/)
 - Escolha um tópico dos que vimos até agora. Sugestões:
     - Motivos para utilizar Go
     - Instalando Go

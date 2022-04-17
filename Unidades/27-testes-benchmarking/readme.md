@@ -10,7 +10,7 @@
     - go test
     - go test -v
 - Para falhas, utilizamos t.Error(), onde a maneira idiomática é algo do tipo "expected: x. got: y."
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/27_testes-e-benchmarking/01_introducao
+- [Código](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/27_testes-e-benchmarking/01_introducao)
 
 ### Testes em tabela
 
@@ -29,7 +29,7 @@
 - Para visualizar seu exemplo na documentação, fazemos o de sempre:
     - godoc -http :8080
 - Tanto para testes quanto para exemplos podemos utilizar: go test ./...
-- Mais: https://blog.golang.org/examples 
+- [Mais](https://blog.golang.org/examples)
 
 ### go fmt, govet e golint
 
@@ -47,7 +47,7 @@
     - go test -bench . ← todos
     - go test -bench Func ← somente Func
 - go help testflag
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/27_testes-e-benchmarking/benchtest
+- [Código](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/27_testes-e-benchmarking/benchtest)
 
 ### Cobertura
 

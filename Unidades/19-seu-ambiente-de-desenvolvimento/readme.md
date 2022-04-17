@@ -63,14 +63,14 @@
 
 - Integrated development environment. WP: "[...] é um programa de computador que reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo."
 - IDEs:
-    - Visual Studio Code → https://code.visualstudio.com/
+    - [Visual Studio Code](https://code.visualstudio.com/)
         - go get -v github.com/nsf/gocode
-    - Goland → https://www.jetbrains.com/go/ ($?)
-    - Atom → https://atom.io/
-    - Sublime → https://www.sublimetext.com/ ($)
+    - [Goland](https://www.jetbrains.com/go/)
+    - [Atom](https://atom.io/)
+    - [Sublime](https://www.sublimetext.com/)
 - Fontes:
-    - https://github.com/tonsky/FiraCode
-    - https://www.fsd.it/shop/fonts/pragmatapro/ ($)
+    - [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
+    - [https://www.fsd.it/shop/fonts/pragmatapro/](https://www.fsd.it/shop/fonts/pragmatapro/)
 
 ### Comandos Go
 
@@ -142,11 +142,11 @@
 - GOOS
 - GOARCH
 - `GOOS=darwin GOARCH=amd64 go build test.go`
-- https://godoc.org/runtime#pkg-constants
+- [https://godoc.org/runtime#pkg-constants](https://godoc.org/runtime#pkg-constants)
 - git push
 - git clone
 - go get
-- Arquivos: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/19_seu-ambiente-de-desenvolvimento/compilacaocruzada
+- [Arquivos](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/19_seu-ambiente-de-desenvolvimento/compilacaocruzada)
 
 ### Pacotes
 
@@ -163,5 +163,5 @@
     - É somente questão de capitalização
         - Com maiúscula: exportado, visível fora do package
         - Com minúscula: não exportado, não utilizável fora do package
-- Artigo: https://rakyll.org/style-packages/
-- Exemplo: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/19_seu-ambiente-de-desenvolvimento/pacotes
+- [Artigo](https://rakyll.org/style-packages/)
+- [Exemplo](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/19_seu-ambiente-de-desenvolvimento/pacotes)

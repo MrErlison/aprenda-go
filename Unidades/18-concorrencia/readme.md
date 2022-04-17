@@ -13,8 +13,7 @@
 
 ### Goroutines & WaitGroups
 
-- O código abaixo é linear. Como fazer as duas funções rodarem concorrentemente?
-    - https://play.golang.org/p/XP-ZMeHUk4
+- O código abaixo é linear. Como fazer as duas funções rodarem concorrentemente? [Solução](https://play.golang.org/p/XP-ZMeHUk4)
 - Goroutines!
 - O que são goroutines? São "threads."
 - O que são threads? [WP](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
@@ -29,26 +28,26 @@
     - func Wait: "Espera todo mundo terminar."
 - Ah, mas então... sim!
 - Só pra ver: runtime.NumCPU() & runtime.NumGoroutine()
-- Go Playground: https://play.golang.org/p/8iiqLX4sWc
+- [Go Playground](https://play.golang.org/p/8iiqLX4sWc)
 
 ### Discussão: Condição de corrida
 
 - Agora vamos dar um mergulho na documentação:
-    - https://golang.org/doc/effective_go.html#concurrency
-    - https://pt.wikipedia.org/wiki/Multiplexador
+    - [https://golang.org/doc/effective_go.html#concurrency](https://golang.org/doc/effective_go.html#concurrency)
+    - [https://pt.wikipedia.org/wiki/Multiplexador](https://pt.wikipedia.org/wiki/Multiplexador)
     - O que é yield? runtime.Gosched()
 - Race condition: 
         *Função 1       var     Função 2*
-         Lendo: 0   →   0
-         Yield          0   →   Lendo: 0
+         Lendo: 0   ->  0
+         Yield          0   ->  Lendo: 0
          var++: 1               Yield
-         Grava: 1   →   1       var++: 1
-                        1   ←   Grava: 1
-         Lendo: 1   ←   1
-         Yield          1   →   Lendo: 1
+         Grava: 1   ->  1       var++: 1
+                        1   <-  Grava: 1
+         Lendo: 1   <-  1
+         Yield          1   ->  Lendo: 1
          var++: 2               Yield
-         Grava: 2   →   2       var++: 2
-                        2   ←   Grava: 2
+         Grava: 2   ->  2       var++: 2
+                        2   <-  Grava: 2
 - E é por isso que vamos ver mutex, atomic e, por fim, channels.
 
 ### Condição de corrida
@@ -57,7 +56,7 @@
     - time.Sleep(time.Second) vs. runtime.Gosched()
 - go help → go help build → go run -race main.go
 - Como resolver? Mutex.
-- Código: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/05_race_condition/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/05_race_condition/main.go)
 
 ### Mutex
 
@@ -69,11 +68,11 @@
         - func (m *Mutex) Lock()
         - func (m *Mutex) Unlock()
 - RWMutex
-- Código: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/06_mutex/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/06_mutex/main.go)
 
 ### Atomic
 
 - Agora vamos fazer a mesma coisa, mas com atomic ao invés de mutex.
     - atomic.AddInt64
     - atomic.LoadInt64
-- Código: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/07_atomic/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/18_concorrencia/07_atomic/main.go)

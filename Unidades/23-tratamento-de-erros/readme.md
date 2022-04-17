@@ -3,10 +3,10 @@
 ### Entendendo erros
 
 - Para quem já programa em outras linguagens:
-    - Em Go não temos exceções. → https://golang.org/doc/faq#exceptions
+    - Em Go não temos [exceções](https://golang.org/doc/faq#exceptions).
     - "We believe that coupling exceptions to a control structure, as in the try-catch-finally idiom, results in convoluted code."
     - "Go's multi-value returns make it easy to report an error without overloading the return value. A canonical error type, coupled with Go's other features, makes error handling pleasant but quite different from that in other languages."
-    - Aventureiros: https://blog.golang.org/error-handling-and-go
+    - [Aventureiros](https://blog.golang.org/error-handling-and-go)
 - É interessante criar o hábito de lidar com erros imediatamente, similar a e.g. defer close.
 - package builtin, type error interface
 - package errors
@@ -21,7 +21,7 @@
     - Exemplo 1: fmt.Scan(&var)
     - Exemplo 2: os.Create → strings.NewReader → io.Copy
     - Exemplo 3: os.Open → io.ReadAll
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/02_verificando-erros
+- [Solução](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/02_verificando-erros)
 
 ### Print & log
 
@@ -39,22 +39,22 @@
     - 4. log.Fatalln
     - 5. log.Panicln
     - 6. panic
-- panic: http://godoc.org/builtin#panic
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/03_print-e-log
+- [panic](http://godoc.org/builtin#panic)
+- [Código](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/03_print-e-log)
 
 ### Recover
 
-- https://blog.golang.org/defer-panic-and-recover
-- https://golang.org/pkg/builtin/#recover
-- Exemplo: https://play.golang.org/p/ZocncqtwaK
-- Código: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/23_tratamento-de-erros/04_recover/main.go
+- [Panic and recover](https://blog.golang.org/defer-panic-and-recover)
+- [Recover](https://golang.org/pkg/builtin/#recover)
+- [Exemplo](https://play.golang.org/p/ZocncqtwaK)
+- [Código](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/23_tratamento-de-erros/04_recover/main.go)
 
 ### Erros com informações adicionais
 
 - Para que nossas funções retornem erros customizados, podemos utilizar:
     - return errors.New()
     - return fmt.Errorf() ← tem um errors.New() embutido, olha na fonte!
-    - https://golang.org/pkg/builtin/#error
+    - [Error](https://golang.org/pkg/builtin/#error)
 - “Error values in Go aren’t special, they are just values like any other, and so you have the entire language at your disposal.” - Rob Pike
 - Código: 
     - 1. errors.New
@@ -62,4 +62,4 @@
     - 3. fmt.Errorf
     - 4. var fmt.Errorf
     - 5. type + method = error interface
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/05_erros-com-informa%C3%A7%C3%B5es-adicionais
+- [Solução](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/23_tratamento-de-erros/05_erros-com-informa%C3%A7%C3%B5es-adicionais)

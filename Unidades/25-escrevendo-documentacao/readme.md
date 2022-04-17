@@ -50,4 +50,4 @@
     - Caso esteja escrevendo bastante documentação, utilize um arquivo doc.go. Exemplo: package fmt.
 - A melhor parte dessa abordagem minimalista é que é super fácil de usar. Como resultado, muita coisa em Go, incluindo toda a standard library, já segue estas convenções.
 - Outro exemplo: errors package.
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/25_escrevendo-documentacao
+- [Código](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/25_escrevendo-documentacao)

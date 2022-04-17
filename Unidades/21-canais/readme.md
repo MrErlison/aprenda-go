@@ -21,33 +21,33 @@
         - Ou com buffer. Via de regra: má idéia; é legal em certas situações, mas em geral é melhor sempre passar o bastão de maneira sincronizada.
 - Interessante: ref/spec → types
 - Código: 
-    - Block: https://play.golang.org/p/dClS7vQlYE (não roda!)
-    - Go routine: https://play.golang.org/p/ZbNCwUuiPi
-    - Buffer: https://play.golang.org/p/32vYvCR7qn
-    - Buffer block: https://play.golang.org/p/smeW6vigAT
-    - Mais buffer: https://play.golang.org/p/Pe2pcboGiA
+    - [Block](https://play.golang.org/p/dClS7vQlYE)
+    - [Go routine](https://play.golang.org/p/ZbNCwUuiPi)
+    - [Buffer](https://play.golang.org/p/32vYvCR7qn)
+    - [Buffer block](https://play.golang.org/p/smeW6vigAT)
+    - [Mais buffer](https://play.golang.org/p/Pe2pcboGiA)
 
 ### Canais direcionais & utilizando canais
 
 - Canais podem ser direcionais.
 - E isso serve pra...?
 - Um send channel e um receive channel são tipos diferentes. Isso permite que os type-checking mechanisms do compilador façam com que não seja possível, por exemplo, escrever num canal de leitura.
-- Aos aventureitos: https://stackoverflow.com/questions/13596186/whats-the-point-of-one-way-channels-in-go
+- [Aos aventureitos](https://stackoverflow.com/questions/13596186/whats-the-point-of-one-way-channels-in-go)
 - Canais bidirecionals (send & receive)
     - send chan<-
         - error: "invalid operation: <-cs (receive from send-only type chan<- int)"
     - receive <-chan
         - error: "invalid operation: cr <- 42 (send to receive-only type <-chan int)"
-- Exemplo: https://play.golang.org/p/TlcSm8bHkW
+- [Exemplo](https://play.golang.org/p/TlcSm8bHkW)
 - A seta sempre aponta para a esquerda.
 - Assignment/conversion: 
     - de geral para específico
     - de específico para geral não
     - Exemplos:
-        - geral pra específico: https://play.golang.org/p/H1uk4YGMBB
-        - específico pra específico: https://play.golang.org/p/8JkOnEi7-a 
-        - específico pra geral: https://play.golang.org/p/4sOKuQRHq7
-        - atribuição tipos !=: https://play.golang.org/p/bG7H6l03VQ 
+        - [geral pra específico](https://play.golang.org/p/H1uk4YGMBB)
+        - [específico pra específico](https://play.golang.org/p/8JkOnEi7-a)
+        - [específico pra geral](https://play.golang.org/p/4sOKuQRHq7)
+        - [atribuição tipos !=](https://play.golang.org/p/bG7H6l03VQ)
 - Em funcs podemos especificar:
     - receive channel
         - Parâmetro receive channel: (c <-chan int)
@@ -58,19 +58,19 @@
         - No scope dessa função, esse canal só envia
         - Podemos fechar um send channel
 - Exemplo: passando informação de uma função para outra.
-- Código: https://play.golang.org/p/TlcSm8bHkW (replay)
+- [Solução](https://play.golang.org/p/TlcSm8bHkW)
 
 ### Range e close
 
 - Range:
     - gofunc com for loop com send e close(chan)
     - recebe com range chan
-- Código: https://play.golang.org/p/_g5IEjSkh1
+- [Solução](https://play.golang.org/p/_g5IEjSkh1)
 
 ### Select
 
 - Select é como switch, só que pra canais, e não é sequencial.
-- "A select blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready." — https://tour.golang.org/concurrency/5
+- "A select blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready." [Link](https://tour.golang.org/concurrency/5)
 - Na prática:
     - Exemplo 1:
         - Duas go funcs enviando X/2 numeros cada uma pra um canal
@@ -84,9 +84,9 @@
         - Func receive é um select entre os três canais, encerra no quit
         - Problema!
 - Go Playground:
-    - 1. https://play.golang.org/p/xC3e1wBxgv
-    - 2. https://play.golang.org/p/_NZqhBXN-v
-    - 3. https://play.golang.org/p/rK8QwsBo0H
+    - 1. [https://play.golang.org/p/xC3e1wBxgv](https://play.golang.org/p/xC3e1wBxgv)
+    - 2. [https://play.golang.org/p/_NZqhBXN-v](https://play.golang.org/p/_NZqhBXN-v)
+    - 3. [https://play.golang.org/p/rK8QwsBo0H](https://play.golang.org/p/rK8QwsBo0H)
 
 ### A expressão comma ok
 
@@ -94,7 +94,7 @@
 - Se receber valor: v, true
 - Canal fechado, nada, etc.: zero v, false
 - Agora vamos resolver o problema do exercício anterior usando comma ok.
-- Código: https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/21_canais/06_exerc%C3%ADcio_anterior/main.go
+- [Solução](https://github.com/ellenkorbes/aprendago/blob/master/c%C3%B3digo/21_canais/06_exerc%C3%ADcio_anterior/main.go)
 
 ### Convergência
 
@@ -110,7 +110,7 @@
         - Func trabalho cria um canal, cria uma go func que manda dados pra esse canal, e retorna o canal. Interessante: time.Duration(rand.Intn(1e3))
         - Func converge toma dois canais, cria um canal novo, e cria duas go funcs com for infinito que passa tudo para o canal novo. Retorna o canal novo.
         - Por fim chamamos canal := converge(trabalho(nome1), trabalho(nome2)) e usamos um for para receber dados do canal var.
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/21_canais/07
+- [Solução](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/21_canais/07)
 
 ### Divergência
 
@@ -125,14 +125,14 @@
     - 2. Com throttling! Ou seja, com um número máximo de go funcs.
         - Ídem acima, mas a func que lança go funcs é assim:
         - Cria X go funcs, cada uma com um range no primeiro canal que, para cada item, poe o retorno de trabalho() no canal dois.
-- Código: https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/21_canais/08
+- [Solução](https://github.com/ellenkorbes/aprendago/tree/master/c%C3%B3digo/21_canais/08)
 
 ### Context
 
 - Só pra ter uma idéia geral:
 - Se a gente lança 500 goroutines pra fazer uma tarefa, e cancelamos a tarefa no meio do caminho, como fazemos pra matar as goroutines?
-- Documentação: https://golang.org/pkg/context/
-- Aos aventureiros: https://blog.golang.org/context
+- [Documentação](https://golang.org/pkg/context/)
+- [Aos aventureiros](https://blog.golang.org/context)
 - Destaques:
     - ctx := context.Background
     - ctx, cancel = context.WithCancel(context.Background)
@@ -141,12 +141,12 @@
     - Tambem tem WithDeadline/Timeout
 - Exemplos (Todd):
     - Analisando:
-        - Background: https://play.golang.org/p/cByXyrxXUf 
-        - WithCancel: https://play.golang.org/p/XOknf0aSpx
-        - Função Cancel: https://play.golang.org/p/UzQxxhn_fm 
+        - [Background](https://play.golang.org/p/cByXyrxXUf)
+        - [WithCancel](https://play.golang.org/p/XOknf0aSpx)
+        - [Função Cancel](https://play.golang.org/p/UzQxxhn_fm)
     - Exemplos práticos:
-        - func WithCancel: https://play.golang.org/p/Lmbyn7bO7e
-        - func WithCancel: https://play.golang.org/p/wvGmvMzIMW 
-        - func WithDeadline: https://play.golang.org/p/Q6mVdQqYTt 
-        - func WithTimeout: https://play.golang.org/p/OuES9sP_yX 
-        - func WithValue: https://play.golang.org/p/8JDCGk1K4P 
+        - [WithCancel](https://play.golang.org/p/Lmbyn7bO7e)
+        - [WithCancel](https://play.golang.org/p/wvGmvMzIMW)
+        - [WithDeadline](https://play.golang.org/p/Q6mVdQqYTt) 
+        - [WithTimeout](https://play.golang.org/p/OuES9sP_yX)
+        - [WithValue](https://play.golang.org/p/8JDCGk1K4P)
