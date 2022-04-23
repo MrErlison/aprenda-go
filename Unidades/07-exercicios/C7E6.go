@@ -1,4 +1,6 @@
 // C7E6
+// - Crie um programa que demonstre o funcionamento da declaração if.
+
 package main
 
 import "fmt"

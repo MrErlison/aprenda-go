@@ -1,4 +1,6 @@
-//cap 5 ex 5
+// C5E5
+// - Crie uma variável de tipo string utilizando uma raw string literal.
+// - Demonstre-a.
 
 package main
 

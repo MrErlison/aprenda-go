@@ -1,4 +1,6 @@
 //C17E5
+// - Partindo do [código](https://play.golang.org/p/BVRZTdlUZ_), ordene os []user por idade e sobrenome.
+// - Os valores no campo Sayings devem ser ordenados tambem, e demonstrados de maneira esteticamente harmoniosa.
 
 package main
 

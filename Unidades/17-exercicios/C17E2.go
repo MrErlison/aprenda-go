@@ -1,4 +1,5 @@
 //C17E2
+// - Partindo do [código](https://play.golang.org/p/b_UuCcZag9), utilize unmarshal e demonstre os valores.
 
 package main
 

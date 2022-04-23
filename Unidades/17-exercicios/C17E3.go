@@ -1,4 +1,6 @@
 //C17E3
+// - Partindo do [código](https://play.golang.org/p/BVRZTdlUZ_), utilize NewEncoder() e Encode() para enviar as informações como JSON para Stdout.
+// - Desafio: descubra o que é, e utilize, method chaining para conectar os dois métodos acima.
 
 package main
 

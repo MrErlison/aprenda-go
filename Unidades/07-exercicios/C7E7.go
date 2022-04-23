@@ -1,4 +1,6 @@
 // C7E7
+// - Utilizando a solução anterior, adicione as opções else if e else.
+
 package main
 
 import "fmt"

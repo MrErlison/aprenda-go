@@ -1,4 +1,5 @@
 // C13E9
+// - Callback: passe uma função como argumento a outra função.
 
 package main
 

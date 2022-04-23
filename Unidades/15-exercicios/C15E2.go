@@ -1,4 +1,6 @@
 // C15E2
+// - Crie um struct "pessoa"
+// - Crie uma função chamada mudeMe que tenha *pessoa como parâmetro. Essa função deve mudar um valor armazenado no endereço *pessoa.
 
 package main
 

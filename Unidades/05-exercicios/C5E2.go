@@ -1,4 +1,13 @@
-//Cap 5 ex 2
+// C5E2
+// - Escreva expressões utilizando os seguintes operadores, e atribua seus valores a variáveis.
+//     - ==
+//     - !=
+//     - <=
+//     - <
+//     - >=
+//     - >
+// - Demonstre estes valores.
+
 package main
 
 import (

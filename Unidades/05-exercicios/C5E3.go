@@ -1,4 +1,7 @@
-// Cap 5 ex 3
+// C5E3
+// - Crie constantes tipadas e não-tipadas.
+// - Demonstre seus valores.
+
 package main
 
 import (

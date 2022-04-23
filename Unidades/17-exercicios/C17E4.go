@@ -1,4 +1,5 @@
 //C17E4
+// - Partindo do [código](https://play.golang.org/p/H_q75mpmHW), ordene a []int e a []string.
 
 package main
 
