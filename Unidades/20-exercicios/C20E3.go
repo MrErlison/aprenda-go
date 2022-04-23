@@ -23,16 +23,17 @@ var waitgroup sync.WaitGroup
 func main() {
 
 	contador := 10
+	yd := 0
 
 	waitgroup.Add(contador)
 	for i := 0; i < contador; i++ {
+		fmt.Println("Goroutine #", i)
 		go func() {
-			v := contador
+			v := yd
 			runtime.Gosched()
 			v++
-			contador = v
+			yd = v
 			waitgroup.Done()
-			fmt.Println("Goroutine #", i)
 			fmt.Println("Contador #", contador)
 		}()
 	}
