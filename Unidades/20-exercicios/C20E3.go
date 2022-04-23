@@ -38,6 +38,4 @@ func main() {
 	}
 	waitgroup.Wait()
 
-	//fmt.Println("Goroutines:", quantidadeDeGoroutines, "\nContador:", contador)
-
 }
