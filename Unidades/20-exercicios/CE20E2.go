@@ -27,7 +27,9 @@ func dizerAlgumaCoisa(h humanos) {
 func main() {
 	john := pessoa{"John Doe"}
 
-	john.falar()
+	john.falar() // atalho para (&john).falar()
 
-	dizerAlgumaCoisa(&john)
+	(&john).falar()
+
+	dizerAlgumaCoisa(&john) // funcional
 }
