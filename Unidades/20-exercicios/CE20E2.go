@@ -1,3 +1,4 @@
+// C20E2
 // - Crie um tipo para um struct chamado "pessoa"
 // - Crie um método "falar" para este tipo que tenha um receiver ponteiro (*pessoa)
 // - Crie uma interface, "humanos", que seja implementada por tipos com o método "falar"
